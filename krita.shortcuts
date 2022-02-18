@@ -1,0 +1,19 @@
+[Shortcuts]
+KisAssistantTool=Shift+V
+KisToolPath='
+KisToolSelectOutline=N
+KritaShape/KisToolLine=Shift+X
+ToolReferenceImages=Shift+R
+activateNextLayer=PgUp; Shift+Q
+activatePreviousLayer=PgDown; Shift+A
+add_new_paint_layer=Ins; "
+clear=Del; D
+deselect=Ctrl+D
+move_layer_down=Ctrl+PgDown; Ctrl+Shift+A
+move_layer_up=Ctrl+PgUp; Ctrl+Shift+Q
+remove_layer=Shift+Del; Shift+D
+reset_canvas_rotation=R
+reset_fg_bg=Z
+selection_tool_mode_replace=none
+show_snap_options_popup=none
+toggle_layer_visibility=Shift+E
