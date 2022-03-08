@@ -592,7 +592,7 @@ awful.spawn.with_shell('nitrogen --restore')
 
 -- Startup configs
 
-awful.util.spawn("xsetwacom --set 'Wacom One by Wacom S Pen stylus' Rotate half")
+-- awful.util.spawn("xsetwacom --set 'Wacom One by Wacom S Pen stylus' Rotate half")
 awful.util.spawn("xset s 3600")
 
 --awful.key({ modkey, "Shift" }, "s", function () awful.util.spawn("scrot -s -z -f ~/Pictures/'Screenshot from %Y-%m-%d %H-%M-%S $wx$h.png'") end)
