@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Set the VPN directory to your home folder
+VPN_DIR="$HOME/.vpn/$1"
+
+# Get the name of the configuration file from the command-line argument
+VPN_CONFIG="$1"
+
+# Set the name of the certificate authority file
+VPN_CA="myca.crt"
+
+# Set the name of the client certificate file
+VPN_CERT="client.crt"
+
+# Set the name of the client key file
+VPN_KEY="client.key"
+
+# Set the name of the credentials file
+VPN_CRED=".credentials"
+
+# Connect to the VPN
+sudo openvpn --config "${VPN_DIR}/${VPN_CONFIG}.ovpn" --ca "${VPN_DIR}/${VPN_CA}" --cert "${VPN_DIR}/${VPN_CERT}" --key "${VPN_DIR}/${VPN_KEY}" --auth-user-pass "${VPN_DIR}/${VPN_CRED}"
